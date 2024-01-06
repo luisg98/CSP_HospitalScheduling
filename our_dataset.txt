@@ -1,0 +1,146 @@
+ARTICLE BENCHMARK DATA SET
+Departments: 2 
+Rooms: 4
+Beds: 8
+Patients: 20
+Planning horizon: 14
+
+DEPARTMENTS: ID, Name
+1 Dept01
+2 Dept02
+3 Dept03 
+
+ROOMS: ID, name, gen, dept, intensive
+11 R11 F 1 1 
+12 R12 M 1 1
+13 R13 F 1 0
+14 R14 M 1 0
+21 R21 F 2 1
+22 R22 M 2 1
+23 R23 F 2 0
+24 R24 M 2 0
+31 R31 B 3 1
+32 R32 B 3 0
+
+BEDS: ID_bed + ID_room 
+01 11
+02 11
+03 12
+04 12
+05 13
+06 13
+07 13
+08 13
+09 13
+10 14
+11 14
+12 14
+13 14
+14 14
+15 21
+16 22
+17 23
+18 23
+19 23
+20 24
+21 24
+22 24
+23 31
+24 31
+25 31
+26 32
+27 32
+
+PATIENTS: ID, name, age, gender, admission_day, discharge_day, intensive
+1 Patient1 100 F 0 3 0
+2 Patient2 1 M 0 4 0
+3 Patient3 13 M 0 3 0
+4 Patient4 88 F 1 4 0
+5 Patient5 10 M 0 5 0
+6 Patient6 65 F 0 6 0
+7 Patient7 33 F 1 5 0
+8 Patient8 86 F 1 6 0
+9 Patient9 22 M 1 4 0
+10 Patient10 7 F 1 6 0
+11 Patient11 42 M 1 10 0
+12 Patient12 3 F 2 3 0
+13 Patient13 14 F 2 10 0
+14 Patient14 78 M 2 7 0
+15 Patient15 8 F 2 11 0
+16 Patient16 61 M 2 13 0
+17 Patient17 56 M 3 4 0
+18 Patient18 106 F 3 5 0
+19 Patient19 4 F 3 10 0
+20 Patient20 52 F 3 11 0
+21 Patient21 2 F 3 13 1
+22 Patient22 1 M 4 5 0
+23 Patient23 12 M 4 8 0
+24 Patient24 3 M 4 10 1
+25 Patient25 24 M 4 9 0
+26 Patient26 52 M 4 12 0
+27 Patient27 63 M 5 7 0
+28 Patient28 7 M 5 8 0
+29 Patient29 1 F 5 12 0
+30 Patient30 20 M 5 10 0
+31 Patient31 30 F 5 16 1
+32 Patient32 0 M 6 8 0
+33 Patient33 50 F 6 12 0
+34 Patient34 5 M 3 14 1
+35 Patient35 70 F 7 20 0
+36 Patient36 8 M 7 10 0
+37 Patient37 80 F 7 11 0
+38 Patient38 11 F 7 15 1
+39 Patient39 22 F 8 11 0
+40 Patient40 41 F 8 25 0
+41 Patient41 3 F 8 13 0
+42 Patient42 7 M 9 15 0
+43 Patient43 57 M 10 12 0
+44 Patient44 7 M 10 14 0
+45 Patient45 6 M 11 13 0
+46 Patient46 23 M 11 12 0
+47 Patient47 1 F 12 15 0
+48 Patient48 42 M 12 16 0
+49 Patient49 53 F 13 17 1
+50 Patient50 54 M 13 16 0
+51 Patient51 45 F 13 22 0
+52 Patient52 66 M 13 25 1
+53 Patient53 71 F 13 26 0
+54 Patient54 8 M 14 15 0
+55 Patient55 19 F 14 23 0
+56 Patient56 101 M 14 18 0
+57 Patient57 11 F 13 25 0
+58 Patient58 12 M 15 20 0
+59 Patient59 23 M 15 19 0
+60 Patient60 0 F 15 19 0
+61 Patient61 2 F 16 18 0
+62 Patient62 6 M 16 19 0
+63 Patient63 16 M 16 24 0
+64 Patient64 2 F 16 26 1
+65 Patient65 8 M 17 24 0
+66 Patient66 68 M 17 19 0
+67 Patient67 96 F 18 20 0
+68 Patient68 87 M 18 24 0
+69 Patient69 2 F 16 25 0
+70 Patient70 74 M 16 27 0
+71 Patient71 0 M 18 27 1
+72 Patient72 1 M 19 21 0
+73 Patient73 4 F 19 27 1
+74 Patient74 6 F 15 26 0
+75 Patient75 66 M 19 25 0
+76 Patient76 12 F 14 26 0
+77 Patient77 1 F 20 22 0
+78 Patient78 5 M 20 23 0
+79 Patient79 33 M 20 27 1
+80 Patient80 51 F 20 25 0
+81 Patient81 20 F 21 26 0
+82 Patient82 41 M 21 24 0
+83 Patient83 70 F 22 26 0
+84 Patient84 0 M 22 25 0
+85 Patient85 0 M 23 26 0
+86 Patient86 5 M 23 26 0
+87 Patient87 10 M 24 25 0
+88 Patient88 15 M 25 26 0
+89 Patient89 26 M 25 27 0
+90 Patient90 45 M 24 27 0
+
+END.

@@ -1,0 +1,50 @@
+ARTICLE BENCHMARK DATA SET
+Departments: 2 
+Rooms: 4
+Beds: 8
+Patients: 20
+Planning horizon: 14
+
+DEPARTMENTS: ID, Name
+1 Dept01
+2 Dept02
+
+ROOMS: ID, name, capac, dept, telemetry, oxygen
+11 R11 2 1 1 0
+12 R12 2 1 1 1
+21 R22 2 2 1 0
+22 R21 2 2 1 1
+
+BEDS: ID_bed + ID_room
+01 11
+02 11
+03 12
+04 12
+05 21
+06 21
+07 22
+08 22
+
+PATIENTS: ID, name, age, gender, admission_day, discharge_day, dept, telemetry, oxygen
+1 Patient1 98 M 0 10 0 0 0
+2 Patient2 82 M 0 5 1 1 1
+3 Patient3 43 M 0 1 0 0 0
+4 Patient4 88 F 0 4 1 0 0
+5 Patient5 20 M 0 3 2 0 1
+6 Patient6 65 F 0 1 0 0 0
+7 Patient7 33 F 1 7 1 1 0
+8 Patient8 86 F 2 3 0 0 0
+9 Patient9 22 M 2 5 1 0 1
+10 Patient10 70 F 3 10 2 1 0
+11 Patient11 42 M 4 10 2 1 1
+12 Patient12 3 F 5 11 1 0 0
+13 Patient13 14 F 5 12 2 0 1
+14 Patient14 78 M 7 13 1 0 0
+15 Patient15 29 F 8 9 0 1 0
+16 Patient16 61 M 9 15 1 0 0
+17 Patient17 56 M 10 17 2 0 1
+18 Patient18 106 F 10 14 1 1 0
+19 Patient19 4 F 11 17 2 1 0
+20 Patient20 52 F 12 19 1 1 1
+
+END.
